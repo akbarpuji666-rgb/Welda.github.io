@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Undangan Pernikahan — Welda & Akbar</title>
+  <style>
+    :root{--accent:#b36b5b;--muted:#666;--bg:#f9f7f5;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;background:linear-gradient(180deg,#fefcfb,#fbf7f6);color:#222;margin:0}
+    .container{max-width:980px;margin:0 auto;padding:24px}
+    header.hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;padding:36px;border-radius:14px;background:var(--card);box-shadow:0 6px 30px rgba(11,10,10,0.04)}
+    .hero .photo{height:320px;background-size:cover;background-position:center;border-radius:10px}
+    .hero h1{font-size:32px;margin:6px 0}
+    .subtitle{color:var(--muted)}
+    .btn{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}.quote{margin:28px 0;padding:20px;border-left:4px solid var(--accent);background:rgba(179,107,91,0.03);border-radius:8px}
+
+.profiles{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(11,10,10,0.03)}
+.avatar{height:180px;background-size:cover;background-position:center;border-radius:8px}
+.meta{color:var(--muted);font-size:14px}
+
+.details{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}
+.gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+
+.countdown{display:flex;gap:10px;align-items:center}
+.countdown .unit{background:#fff;padding:10px 14px;border-radius:8px;min-width:72px;text-align:center;box-shadow:0 6px 18px rgba(11,10,10,0.03)}
+
+form.rsvp{display:grid;gap:10px}
+input,select,textarea{padding:10px;border-radius:8px;border:1px solid #e6e6e6}
+
+footer{margin-top:28px;text-align:center;color:var(--muted)}
+
+@media(max-width:800px){.profiles{grid-template-columns:1fr}.details{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.hero .photo{height:220px}}
+
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- 1. Hero -->
+    <header class="hero" id="top">
+      <div style="display:flex;gap:18px;flex-direction:column">
+        <div class="photo" id="heroPhoto" style="background-image:url('https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77')"></div>
+        <div>
+          <h1>Welda &amp; Akbar</h1>
+          <div class="subtitle">06 &bull; 02 &bull; 2026</div>
+          <p style="margin-top:12px">Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami.</p>
+          <a class="btn" href="#invitation" onclick="document.getElementById('invitation').scrollIntoView({behavior:'smooth'})">Lihat Undangan</a>
+        </div>
+      </div>
+    </header><!-- 2. Kutipan -->
+<section class="quote">
+  <blockquote style="margin:0;font-style:italic">“Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri...” <br><small style="color:var(--muted)">(QS Ar-Rum: 21)</small></blockquote>
+</section>
+
+<!-- 3. Profil Mempelai -->
+<section class="profiles" id="invitation">
+  <article class="card">
+    <div class="avatar" style="background-image:url('https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77')"></div>
+    <h3>Mempelai Wanita</h3>
+    <strong>Welda Oktaviyanti</strong>
+    <p class="meta">Orang tua: Bapak Dedih &amp; Ibu Suryati</p>
+  </article>
+
+  <article class="card">
+    <div class="avatar" style="background-image:url('https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77')"></div>
+    <h3>Mempelai Pria</h3>
+    <strong>Akbar Puji Prasetyo</strong>
+    <p class="meta">Orang tua: Bapak Jum &amp; Ibu Mar</p>
+  </article>
+</section>
+
+<!-- 4. Detail Acara -->
+<section class="details">
+  <div class="card">
+    <h4>Akad Nikah</h4>
+    <p><strong>Tanggal:</strong> 6 Februari 2026<br><strong>Waktu:</strong> 14:00<br><strong>Lokasi:</strong> KUA Pasar Rebo</p>
+  </div>
+  <div class="card">
+    <h4>Resepsi</h4>
+    <p><strong>Tanggal:</strong> 6 Februari 2026<br><strong>Waktu:</strong> 15:00 - 20:00<br><strong>Lokasi:</strong> Jl. Asem</p>
+    <p><a href="https://maps.app.goo.gl/qsN2vv3y3EYnJnF39?g_st=aw" target="_blank">Lihat di Maps</a></p>
+  </div>
+</section>
+
+<!-- 5. Galeri Foto -->
+<section>
+  <h4>Galeri</h4>
+  <div class="gallery">
+    <img src="https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77" alt="galeri-1">
+    <img src="https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77" alt="galeri-2">
+    <img src="https://photos.app.goo.gl/bgeQ4jDCgJz2y9P77" alt="galeri-3">
+  </div>
+  <p style="font-size:13px;color:var(--muted)">Tip: Klik gambar untuk melihat lebih besar.</p>
+</section>
+
+<!-- 6. Countdown -->
+<section style="margin-top:18px">
+  <h4>Hitung Mundur</h4>
+  <div class="countdown" id="countdown">
+    <div class="unit"><div id="days">--</div><div style="font-size:12px;color:var(--muted)">Hari</div></div>
+    <div class="unit"><div id="hours">--</div><div style="font-size:12px;color:var(--muted)">Jam</div></div>
+    <div class="unit"><div id="minutes">--</div><div style="font-size:12px;color:var(--muted)">Menit</div></div>
+    <div class="unit"><div id="seconds">--</div><div style="font-size:12px;color:var(--muted)">Detik</div></div>
+  </div>
+</section>
+
+<!-- 7. RSVP -->
+<section style="margin-top:18px">
+  <h4>RSVP</h4>
+  <form class="rsvp card" id="rsvpForm">
+    <input type="text" id="rsvpName" placeholder="Nama lengkap" required>
+    <input type="number" id="rsvpCount" placeholder="Jumlah tamu" min="1" value="1" required>
+    <select id="rsvpAttend">
+      <option value="Hadir">Hadir</option>
+      <option value="Tidak Hadir">Tidak Hadir</option>
+    </select>
+    <textarea id="rsvpNote" placeholder="Pesan / Doa (opsional)" rows="3"></textarea>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button type="submit" class="btn">Kirim RSVP</button>
+      <button type="button" class="btn" style="background:#444" id="waBtn">Kirim via WhatsApp</button>
+    </div>
+    <p id="rsvpStatus" style="color:var(--muted);font-size:13px"></p>
+  </form>
+  <small style="display:block;color:var(--muted);margin-top:8px">Catatan: Integrasi Google Sheet / Email memerlukan endpoint (contoh: Google Apps Script). Lihat komentar di kode untuk panduan.</small>
+</section>
+
+<!-- 8. Kirim Hadiah -->
+<section style="margin-top:18px">
+  <h4>Kirim Hadiah</h4>
+  <div class="card">
+    <p><strong>Rekening Bank:</strong> Bank Contoh - 1234 5678 9012 a/n Welda Oktaviyanti</p>
+    <p><strong>E-wallet:</strong> GOPAY/OVO/SHOPEEPAY - 0812xxxxxxx</p>
+    <p>QR Payment: <em>(tempatkan gambar QR di sini)</em></p>
+  </div>
+</section>
+
+<!-- 9. Protokol Acara -->
+<section style="margin-top:18px">
+  <h4>Protokol Acara</h4>
+  <div class="card">
+    <p><strong>Dresscode:</strong> Rapi &amp; semi-formal</p>
+    <p><strong>Parkir:</strong> Tersedia di area KUA, mohon tiba lebih awal.</p>
+    <p><strong>Catatan:</strong> Mohon pengertian apabila membawa anak — (opsional: tulis aturan di sini).</p>
+  </div>
+</section>
+
+<!-- 10. Penutup -->
+<section style="margin-top:18px">
+  <h4>Penutup</h4>
+  <div class="card">
+    <p>Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara dapat hadir dan memberikan doa restu.</p>
+    <p style="text-align:center;font-weight:600">Welda &amp; Akbar</p>
+  </div>
+</section>
+
+<!-- 11. Musik Latar -->
+<section style="margin-top:18px">
+  <h4>Musik Latar</h4>
+  <div class="card">
+    <p>Jika ingin, klik play untuk memutar musik:</p>
+    <iframe width="100%" height="80" src="https://www.youtube.com/embed/8bWRU2ipOwA?rel=0&showinfo=0" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- 12. Footer -->
+<footer style="margin-top:24px">
+  <div>Welda &amp; Akbar</div>
+  <div style="font-size:13px;color:var(--muted)">© 2026. Semua hak cipta.</div>
+  <div style="margin-top:8px;color:var(--muted)">Instagram / Facebook / Tiktok: @contoh</div>
+</footer>
+
+  </main>  <script>
+    // ===== Countdown =====
+    // Target: 6 Feb 2026 00:00:00 (local time)
+    const target = new Date(2026, 1, 6, 0, 0, 0); // Month is 0-based: 1 = February
+    function updateCountdown(){
+      const now = new Date();
+      const diff = target - now;
+      if(diff <= 0){document.getElementById('countdown').innerHTML = '<div class="unit">Acara sudah berlangsung</div>';return}
+      const days = Math.floor(diff / (1000*60*60*24));
+      const hours = Math.floor((diff / (1000*60*60)) % 24);
+      const minutes = Math.floor((diff / (1000*60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = String(hours).padStart(2,'0');
+      document.getElementById('minutes').textContent = String(minutes).padStart(2,'0');
+      document.getElementById('seconds').textContent = String(seconds).padStart(2,'0');
+    }
+    updateCountdown();setInterval(updateCountdown,1000);
+
+    // ===== RSVP Handling =====
+    const rsvpForm = document.getElementById('rsvpForm');
+    rsvpForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      const data = {
+        name: document.getElementById('rsvpName').value.trim(),
+        count: document.getElementById('rsvpCount').value,
+        attend: document.getElementById('rsvpAttend').value,
+        note: document.getElementById('rsvpNote').value.trim(),
+        timestamp: new Date().toISOString()
+      };
+
+      // --- Option A: Kirim ke Google Sheets via Web Apps (Google Apps Script)
+      // Jika Anda membuat Google Apps Script yang menerima POST, ganti URL_ENDPOINT di bawah.
+      const URL_ENDPOINT = 'PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+      if(URL_ENDPOINT && URL_ENDPOINT !== 'PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE'){
+        fetch(URL_ENDPOINT,{
+          method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)
+        }).then(r=>{
+          document.getElementById('rsvpStatus').textContent = 'Terima kasih! Konfirmasi tersimpan.';
+          rsvpForm.reset();
+        }).catch(err=>{
+          document.getElementById('rsvpStatus').textContent = 'Gagal mengirim ke server. Coba kirim via WhatsApp.';
+          console.error(err);
+        });
+      }else{
+        // Jika belum dikonfigurasi, simpan ke localStorage sebagai fallback
+        const list = JSON.parse(localStorage.getItem('rsvpList')||'[]');
+        list.push(data);localStorage.setItem('rsvpList',JSON.stringify(list));
+        document.getElementById('rsvpStatus').textContent = 'Tersimpan secara lokal. Anda bisa hubungkan Google Sheets untuk menyimpan online.';
+        rsvpForm.reset();
+      }
+    });
+
+    // ===== WhatsApp quick-send (prefilled) =====
+    document.getElementById('waBtn').addEventListener('click', ()=>{
+      const name = encodeURIComponent(document.getElementById('rsvpName').value || 'Nama');
+      const count = encodeURIComponent(document.getElementById('rsvpCount').value || '1');
+      const attend = encodeURIComponent(document.getElementById('rsvpAttend').value || 'Hadir');
+      const note = encodeURIComponent(document.getElementById('rsvpNote').value || '-');
+      const text = `RSVP%0ANama:%20${name}%0AJumlah%20tamu:%20${count}%0AHadir:%20${attend}%0APesan:%20${note}`;
+      // Ganti nomor di bawah dengan nomor penerima (format internasional tanpa tanda +, contoh: 62812...)
+      const waNumber = '62812XXXXXXXX';
+      window.open(`https://wa.me/${waNumber}?text=${text}`, '_blank');
+    });
+
+    // ===== Simple image zoom for gallery =====
+    document.querySelectorAll('.gallery img').forEach(img=>{
+      img.style.cursor='zoom-in';
+      img.addEventListener('click',()=>{
+        const modal = document.createElement('div');
+        modal.style.position='fixed';modal.style.inset=0;modal.style.background='rgba(0,0,0,0.8)';modal.style.display='flex';modal.style.alignItems='center';modal.style.justifyContent='center';modal.style.zIndex=9999;
+        const big = document.createElement('img');big.src = img.src;big.style.maxWidth='90%';big.style.maxHeight='90%';big.style.borderRadius='8px';
+        modal.appendChild(big);
+        modal.addEventListener('click',()=>document.body.removeChild(modal));
+        document.body.appendChild(modal);
+      })
+    });
+
+    // ===== Placeholder: Instructions to create Google Apps Script (developer) =====
+    /*
+      Cara singkat menghubungkan ke Google Sheets:
+      1. Buat Google Sheet baru.
+      2. Buka Extensions -> Apps Script.
+      3. Paste script yang menerima POST dan menulis ke sheet. Contoh:
+
+        function doPost(e){
+          var ss = SpreadsheetApp.openById('SHEET_ID');
+          var sh = ss.getSheetByName('Sheet1');
+          var data = JSON.parse(e.postData.contents);
+          sh.appendRow([new Date(), data.name, data.count, data.attend, data.note]);
+          return ContentService.createTextOutput(JSON.stringify({status:'ok'})).setMimeType(ContentService.MimeType.JSON);
+        }
+
+      4. Deploy -> New deployment -> type Web app -> set "Anyone" can access -> Deploy.
+      5. Salin URL Web App dan tempelkan ke const URL_ENDPOINT di atas.
+    */
+
+  </script></body>
+</html>
